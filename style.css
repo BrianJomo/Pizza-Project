@@ -25,3 +25,81 @@ nav{
 	letter-spacing: 1px;
 	cursor: pointer;	
 }
+span{
+	color: #FFE62E;
+}
+nav ul li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 10px  25px;
+}
+nav ul li a{
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+nav ul li a:hover{
+	color: #FFE62E;
+	transition: .4s;
+}
+.Button{
+	background-color:#FFE62E;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 10px 25px;
+	border-radius: 30px;
+	transition: transform .4s; 
+}
+.Button:hover{
+	transform: scale(1.2);
+}
+.Details{
+	position: absolute;
+	top: 50%;
+	left:8%;
+	transform: translateY(-50%);
+}
+h1{
+	color: white;
+	margin: 20px 0px 20px;
+	font-size: 75px;
+}
+h3{
+	color: white;
+	font-size: 25px;
+	margin-bottom: 50px;
+}
+h4{
+	color: #869008;
+	letter-spacing: 2px;
+	font-size: 20px;
+}
+.Newsletter form{
+	width: 380px;
+	max-width: 100%;
+	position: relative;
+}
+.Newsletter form input:first-child{
+	display: inline-block;
+	width: 100%;
+	padding: 14px 130px 14px 15px;
+	border: 2px solid #FFE62E;
+	outline: none;
+	border-radius: 30px;
+}
+.Newsletter form input:last-child{
+	position: absolute;
+	display: inline-block;
+	outline: none;
+	border: none;
+	padding: 10px 30px;
+	border-radius: 30px;
+	background-color:#FFE62E;
+	color: white;
+	box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
+	top: 6px;
+	right: 6px; 
+}
