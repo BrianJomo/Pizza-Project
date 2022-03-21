@@ -16,3 +16,13 @@
 ## Description
 
 <p>This is a mordern website. It contains images, a form, icons among other mordern website features. It is meant to be used as a  website where customers can order pizza. It is conveniently usable on a desktop, laptop and some tablets.</p>
+
+## Installation
+
+To gain acess to this website click on this link: https://brianjomo.github.io/Delani-Studio/
+
+### Requirements
+
+* Either a computer,phone,tablet or an Ipad.
+
+* An access to the Internet.
