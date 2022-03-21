@@ -19,7 +19,7 @@
 
 ## Installation
 
-To gain acess to this website click on this link: https://brianjomo.github.io/Delani-Studio/
+To gain acess to this website click on this link: https://brianjomo.github.io/Pizza-Project/
 
 ### Requirements
 
@@ -29,7 +29,7 @@ To gain acess to this website click on this link: https://brianjomo.github.io/De
 
 ### Installation Process
 
-To have access to this website you will have to click on this link: https://brianjomo.github.io/Delani-Studio/ then you will immediately be directed to the website and explore its features.
+To have access to this website you will have to click on this link: https://brianjomo.github.io/Pizza-Project/ then you will immediately be directed to the website and explore its features.
 ## Technology Used
 
 * HTML - which was used to build the structure of the web pages.
