@@ -38,3 +38,189 @@
 		</div>
 	    </div>
         
+<!----------------------------------------------------------------Order---------------------------------------------------------------------------->
+  
+    <div class="order" id="order">
+        <div class="heading" id="heading"> 
+           <h2>Order Here</h2>
+        </div>
+          <form action="" id="form">
+              <div class="group">
+                      <label for="name">Your Name:</label> <br> <br>
+                      <input type="text"  id="name" placeholder="Name..."  required>
+              </div>
+              <div class="container">
+                      <div class="flavor">
+                          <label for="pizza-flavor">Pizza flavor</label> <br>
+                          <select  id="pizza-flavor" required>
+                              <option>Meat</option>
+                              <option>Margharita</option>
+                              <option>Mushroom</option>
+                              <option> Vegan</option>
+                              <option>Cheese</option>
+                              <option>Pepperoni</option>
+                          </select>
+                  </div>
+                  <div class="size">
+                          <label for="pizza-size">Pizza size</label> <br>
+                          <select  id="pizza-size" required>
+                              <option>Small</option>
+                              <option>Medium</option>
+                              <option>Large</option>
+                          </select>
+                      </div>
+                      <div class="crust">
+                          <label for="pizza-crust">Pizza Crust</label> <br>
+                          <select  id="pizza-crust" required>
+                              <option>Sicilian </option>
+                              <option>Pan</option>
+                              <option>Stuffed</option>
+                              <option>Thin</option>
+                          </select>
+                      </div>
+              </div>
+              <div class="one">
+                  <label for="pizza-number">Quantity</label><br>
+                  <select  id="pizza-number" required>
+                      <option>1</option>
+                      <option>2</option>
+                      <option>3</option>
+                      <option>4</option>
+                      <option>5</option>
+                      <option>6</option>
+                      <option>7</option>
+                      <option>8</option>
+                      <option>9</option>
+                      <option>10</option>
+                  </select>
+              </div>
+            <div class="toppings1">
+                  <div class="small">
+                      <label for="extratoppings">Extra Toppings</label><br>
+                      
+                  </div>
+                  <div class="parts">
+                      <div class="part1">                              
+                       
+                          
+                          <input type="checkbox" name="toppings" value="cheddar-cheese" id="cheddar-cheese">
+                          <label for="cheddar-cheese">Cheddar Cheese</label> <br>
+                          
+                          <input  type="checkbox" name="toppings" value="ham" id="ham">
+                          <label  for="ham">Ham</label> <br>
+
+                          <input  type="checkbox" name="toppings" value="mushroom" id="mushrooms">
+                          <label  for="mushrooms">Mushroom</label> <br>
+                          
+                          <input  type="checkbox" name="toppings" value="mozarella-cheese" id="mozarella-cheese">
+                          <label  for="mozarella-cheese">Mozarella Cheese</label> <br>
+
+                          <input type="checkbox" name="toppings" value="bacon" id="bacon">
+                          <label for="bacon">Bacon</label> <br>  
+                      
+                              
+                      </div>
+                  
+                      <div class="part2">
+                          
+                              
+                          
+                              <input  type="checkbox" name="toppings" value="onions"  id="onions">
+                              <label for="onions">Onions</label> <br>
+
+                              <input  type="checkbox" value="sausage" name="toppings"  id="sausage">
+                              <label  for="sausage">Sausage</label> <br>
+                      
+                              <input  type="checkbox" value="parmesan-cheese" name="toppings"id="parmesan-cheese">
+                              <label for="parmesan-cheese">Parmesan Cheese</label> <br>
+
+                              <input  type="checkbox" name="toppings" value="olives"  id="olives">
+                              <label  for="olives">Olives</label> <br>
+                          
+                              <input type="checkbox" value="pepperoni" name="toppings" id="pepperoni">
+                              <label for="pepperoni">Pepperoni</label> <br>                      
+                             
+                          </div>
+                      </div> 
+                  </div>
+                  <div class="btnsubmit" >
+                      <input type="submit" name="submitButton" class="btnsubmit"  id="placeorder" value="Place Order">
+                  </div>
+              
+        </form>
+      </div>
+      <div id="yourorder">
+          <br>
+          
+          <div id="orderDetails">
+              <h3 class="salutation"><b>Here is your order:</b></h3>
+                 <table class="table1" id="orderTable">
+                      <thead>
+                          <tr>
+                              <th >Flavor&ensp;</th>
+                              <th >Number&ensp;</th>
+                              <th >Size&ensp;</th>
+                              <th >Crust&ensp;</th>
+                              <th >Extra Toppings&ensp;</th>
+                              <th >Total&ensp;</th>
+                          </tr>
+                      </thead>
+                      <tbody id="ordersmade">
+                          <tr>
+                              <td class="pizza-flavor"></td>
+                              <td class="number"></td>
+                              <td class="pizza-size"></td>
+                              <td class="pizza-crust"></td>
+                              <td class="toppings"></td>
+                              <td class="pizzaTotal1"td>
+                          </tr>
+                      </tbody>
+                      <tfoot>
+                          <tr>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td class="grandtot"td>
+                          </tr>
+                      </tfoot>
+                 </table>
+                  <a href="#ordersection" type="submit" name="addorder" onclick="addOrder()" class="btn  submit" id="addorder">Add Order</a>
+                
+                  <a href="#deliveryOptions" type="submit" name="checkout" onclick="deliveryOptions()" class="btn  submit" id="checkout">Checkout</a>
+                
+                  <div id="deliveryOptions">
+                      
+                      <br>
+                      <br>
+                      <p>Your order will be ready in soon.</p>
+                      <p>Would you like to:</p>
+                      <button type="submit" name="pickup" onclick="pickUp()" class="btn"><i class="fas fa-store"></i> Pick it Up</button>
+                      <button type="submit" name="deliver" onclick="deliver()" class="btn submit"><i class="fas fa-truck"></i> Get it Delivered</button>
+                  </div>
+                  
+          </div>
+      </div>
+     
+        
+      <div id="pickUpConfirmation">
+  
+          
+          <p><div class="name"></div>, your order has been placed  successfully!<div class="totalPick"></div>.</p>
+          <a href="#header" type="button" class="btn" onclick="reloadPage()" id="got-it" style="background-color: #FFE62E">OK, Got it!</a>  
+                     
+      </div>
+      <div id="deliveryConfirmation">
+          <p>
+              <div class="name"></div> Your order has been placed  successfully! <br>
+              <br>The delivery fee to
+              <div class="location"></div> is Ksh.200. <br>
+              <br>Total amount payable to the courier on delivery is Ksh. <br>
+              <div class="totalDel"></div>.
+              <br>In case there are any changes to your order, we shall reach you on:
+              <div class="phone"></div>
+          </p>
+          <a href="#header" type="button" class="btn" onclick="reloadPage()" id="got-it" style="background-color: #FFE62E">OK, Got it!</a>
+      </div>
+   
