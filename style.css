@@ -264,3 +264,86 @@ h4{
     margin-top: 2vw;
     color: #252B42;
   }
+#deliveryOptions button{
+    background-color: #FFE62E ;
+    border: none;
+    height: 2vw;
+    width: 10%;
+    color: white;
+    font-size: 1vw;
+    margin-top: 1vw;
+    border-radius: 0.5vw;
+    font-weight: bold;
+  }
+  #delivery{
+    display: none;
+    text-align: center;
+    padding: 3% ;
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.2);
+    width: 30%;
+    border-radius: 1vw;
+    justify-content: center;
+    margin-left: 34vw;
+    margin-bottom: 3vw;
+    color: #252B42;
+  }
+  #delivery h5{
+    padding-bottom: 1vw;
+    font-size:1.2vw ;
+  }
+  #delivery input{
+    width: 70%;
+    padding: 0.5vw;
+    margin-top: 1vw;
+  
+  }
+  #delivery button{
+    background-color: #FFE62E ;
+    border: none;
+    height: 2vw;
+    width: 40%;
+    color: white;
+    font-size: 1vw;
+    margin-top: 1.5vw;
+    border-radius: 0.5vw;
+    font-weight: bold;
+  }
+  .street{
+    padding: 1vw;
+  }
+  #pickUpConfirmation{
+    margin-bottom: 2vw;
+    display: none;
+    text-align: center;
+  }
+  #pickUpConfirmation a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    width: 25%;
+    padding: 0.5vw;
+    border-radius: 0.5vw;
+  }
+  #pickUpConfirmation p{
+    padding-bottom: 2vw;
+  }
+  #deliveryConfirmation{
+    margin-bottom: 1vw;
+    display: none;
+    text-align: center;
+  }
+   #deliveryConfirmation a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    width: 25%;
+    padding: 0.5vw;
+    border-radius: 0.5vw;
+   }
+   #deliveryConfirmation p{
+    padding-bottom: 2vw;
+   }
+  div.totalPick, div.name, div.location, div.totalDel, div.phone{
+    display: inline;
+    font-weight: bold;
+  }
